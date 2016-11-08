@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/comment.css" rel="stylesheet">
+    <link href="css/download_data.css" rel="stylesheet">
+</head>
+<body class="comment_body">
+<div class="navbar navbar-fixed-top" style="width: 100%; height: 60px; padding: 0px 10px 0px 10px;  background-color: #ffffff">
+    <div class="container" style="width: 100%; padding: 0; margin: 0">
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="head_cell_center">
+                    <img src="./img/logo.png" style="height: 60px;padding: 5px 0px 5px 0px">
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="head_cell_center_right">
+                    <div style="float:right; height:60px;line-height:60px;overflow:hidden;">
+                            <span>
+                                <span>中文</span>
+                                <span>|</span>
+                                <span>English</span>
+                            </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--<a class="showNavBar">
+            <button data-toggle="collapse" data-target=".navbar-collapse" class="btn btn-primary">
+                导航栏<i class="fa fa-fw fa-caret-down"></i>
+            </button>
+    </a>-->
+</div>
+
+<!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+<div class="commemt_content">
+    <div class="container" style="width: 100%; padding: 0; margin: 0">
+        <div class="row">
+            <div class="col-xs-2 comment_nav" >
+                <div href="javascript:;" data-toggle="collapse" data-target="#title" class="nav_content_title">
+                    <span>2015 上海电子展</span><i class="fa fa-fw fa-caret-down"></i>
+                </div>
+
+                <ul id="title" class="collapse in" style="padding: 0px 8px 0px 8px; margin: 0;  list-style:none;">
+                    <li style="margin: 0">
+                        <div href="javascript:;" data-toggle="collapse" data-target="#title_content1"
+                             class="nav_content_innertitle">
+                            您需填写...
+                        </div>
+                        <div id="title_content1" class="collapse in">
+                            <ul style="list-style: none;border: 1px solid #4490C1; padding: 2px 2px 2px 0px; margin-bottom: 2px; margin-top: 0px; color: #9C9C9C;">
+                                <li class="unchoose_line">
+                                    <a class="a_right"
+                                       href="index.html"
+                                       target="_self">提交公司资料<img src="./img/green_yes.png"
+                                                                 class="img_right"/></a>
+                                </li>
+                                <li class="unchoose_line">
+                                    <a class="a_right"
+                                       href="online_product.html"
+                                       target="_self">上传展品资料<img src="./img/green_yes.png"
+                                                                 class="img_right"/></a>
+                                </li>
+                                <li class="unchoose_line">
+                                    <a class="a_right"
+                                       href="exhibitor_badge.html"
+                                       target="_self">上传展商胸卡<img class="img_right"
+                                                                 src="./img/green_yes.png"/></a>
+                                </li>
+                                <li class="unchoose_line">
+                                    <a class="a_right"
+                                       href="elect_invite.html"
+                                       target="_self">贵宾观众电子邀请卡<img src="./img/yellow_ask.png"
+                                                                    class="img_right"/></a>
+                                </li>
+                                <li class="unchoose_line">
+                                    <a class="a_right"
+                                       href="weixin_invite.html"
+                                       target="_self">贵宾观众微信邀请卡<img src="./img/yellow_ask.png"
+                                                                    class="img_right"/></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li style="margin:0px 0px 1px 0px">
+                        <div href="javascript:;" data-toggle="collapse" data-target="#title_content2"
+                             class="nav_content_innertitle">
+                            您需下载...
+                        </div>
+                        <div id="title_content2" class="collapse in">
+                            <ul style="list-style:none;border: 1px solid #4490C1; padding: 2px 2px 2px 0px; margin-bottom: 2px; margin-top: 0px; color: #9C9C9C;">
+                                <li class="choosed_line">
+                                    <a class="a_right"
+                                       href="download_data.html" target="_self">需下载资料<img
+                                            src="./img/yellow_ask.png" class="img_right"/></a>
+                                </li>
+                                <li class="unchoose_line">
+                                    <a class="a_right"
+                                       href="exhibitor_manual.html"
+                                       target="_self">展商手册<img src="./img/yellow_ask.png" class="img_right"/></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
+                <div href="javascript:;" data-toggle="collapse" data-target="#title" class="nav_content_title">
+                    <span>2015 上海电子展</span><i class="fa fa-fw fa-caret-up"></i>
+                </div>
+            </div>
+            <div class="col-xs-10">
+                <!--<div class="down_title">
+                    <div class="down_title_font">资料下载</div>
+                </div>-->
+
+                <div class="down_content">
+                    <div class="down_welcom_font">欢迎参加慕尼黑上海电子展！</div>
+                    <div class="down_welcom_font_little">为了帮助您顺利进行展前准备工作, 我们提供相关资料, 祝您顺利参展, 如有任何疑问, 请与我们联系。</div>
+
+                    <div style="background-color: #E8E8E6; padding: 20px;">
+                        <div class="down_content_top_p">以下是对相关资料的一些重要提示：</div>
+                        <div class="down_content_top_text">1. 确定您对此次慕尼黑上海电子展中预定展位类型 （标准展位还是光地展位）, 根据对应展位类型填写表格。</div>
+                        <div class="down_content_top_text">2. 遵循表格截止日期。</div>
+                        <div class="down_content_top_text">3. 请注意以下服务项目中, 慕尼黑展览（上海）有限公司将委托展会指定服务供应商提供相关服务并开具付款通知：</div>
+
+                        <div style="margin-top: 10px;"></div>
+
+                        <div class="download_container">
+                            <table style="background-color: #DCDCDC; display: table; width: 100%">
+                                <tr style="width: 100%">
+                                    <td class="td_33">
+                                        <div class="down_service_item_titletext">服务项目</div>
+                                    </td>
+                                    <td class="td_33">
+                                        <div class="down_service_item_titletext">服务供应商类型</div>
+                                    </td>
+                                    <td class="td_33">
+                                        <div class="down_service_item_titletext">公司名</div>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <table style="background-color: #ffffff;; display: table; width: 100%">
+                                <tr style="width: 100%">
+                                    <td class="td_33">
+                                        <div class="down_service_item_nomaltext_padding">单层高于（4.5）展台, 双层展台设计建筑审批</div>
+                                    </td>
+                                    <td class="td_33">
+                                        <div class="down_service_item_nomaltext_padding">展馆指定审图单位</div>
+                                    </td>
+                                    <td class="td_33">
+                                        <div class="down_service_item_nomaltext_padding">上海汉海展览咨询有限公司</div>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <table style="background-color: #ffffff;; display: table; width: 100%">
+                                <tr style="width: 100%">
+                                    <td class="td_33">
+                                        <div class="down_service_item_nomaltext_padding">家具, 设施, 设备等租赁</div>
+                                    </td>
+                                    <td class="td_33">
+                                        <div class="down_service_item_nomaltext_padding">大会指定搭建商</div>
+                                    </td>
+                                    <td class="td_33">
+                                        <div class="down_service_item_nomaltext_padding">上海怡展展览服务有限公司新怡展（上海）展览展示有限公司
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <table style="background-color: #ffffff;; display: table; width: 100%">
+                                <tr style="width: 100%">
+                                    <td class="td_33">
+                                        <div class="down_service_item_nomaltext_padding">酒店预订, 来华邀请函申请</div>
+                                    </td>
+                                    <td class="td_33">
+                                        <div class="down_service_item_nomaltext_padding">大会指定旅游代理</div>
+                                    </td>
+                                    <td class="td_33">
+                                        <div class="down_service_item_nomaltext_padding">上海奥润特会展服务有限公司</div>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <table style="background-color: #ffffff;; display: table; width: 100%">
+                                <tr style="width: 100%">
+                                    <td class="td_33">
+                                        <div class="down_service_item_nomaltext_padding">展品运输</div>
+                                    </td>
+                                    <td class="td_33">
+                                        <div class="down_service_item_nomaltext_padding">大会指定运输代理</div>
+                                    </td>
+                                    <td class="td_33">
+                                        <div class="down_service_item_nomaltext_padding">全球国际运货代理（中国）有限公司</div>
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </div>
+                    </div>
+                    <div style="border: 4px solid #D2D2D2; margin-top: 20px">
+                        <table class="table_main">
+                            <tr style="width: 100%">
+                                <td class="td_25">
+                                    <div class="down_service_item_lanrgetext">展览指南</div>
+                                </td>
+                                <td class="td_25">
+                                    <div class="down_service_item_nomaltext_margin">内容</div>
+                                    <div style="margin-top: 4px; margin-left: 40px">第一章 展览指南 <img
+                                            src="./img/tick_button.png"></div>
+                                    <div style="height: 20px"></div>
+                                </td>
+                                <td class="td_10">
+                                    <div class="down_service_item_nomaltext_margin">大小</div>
+                                    <div class="down_service_item_nomaltext_margin">1.09KB</div>
+                                    <div style="height: 20px"></div>
+                                </td>
+                                <td class="td_40">
+                                    <div style="height: 60px;"></div>
+                                <td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div style="border: 4px solid #D2D2D2; margin-top: 20px">
+                        <table class="table_main">
+                            <tr style="width: 100%">
+                                <td class="td_25">
+                                    <div class="down_service_item_lanrgetext">所有展商必须完成</div>
+                                </td>
+                                <td class="td_25">
+                                    <div style="width: 100%;">
+                                        <div class="down_service_item_nomaltext">内容</div>
+                                        <div class="down_service_item_nomaltext_margin">
+                                            <img style="width: 20px; height: 20px;" src="./img/ebook.png"/> 表格1 现场开机活动申报
+                                            <img style="width: 20px; height: 20px;" src="./img/icon_download.png"/>
+                                        </div>
+
+                                        <div class="down_service_item_nomaltext_margin">
+                                            <img style="width: 20px; height: 20px;" src="./img/ebook.png"/> 表格2 申请展商胸卡
+                                            <img style="width: 20px; height: 20px;" src="./img/icon_download.png"/>
+                                        </div>
+
+
+                                        <div class="down_service_item_nomaltext_margin">
+                                            <img style="width: 20px; height: 20px;" src="./img/ebook.png"/> 表格3
+                                            贵宾观众电子邀请卡
+                                            <img style="width: 20px; height: 20px;" src="./img/icon_download.png"/>
+                                        </div>
+
+                                        <div class="down_service_item_nomaltext_margin">
+                                            <img style="width: 20px; height: 20px;" src="./img/ebook.png"/> 表格4
+                                            申请《贵宾观众请柬》
+                                            <img style="width: 20px; height: 20px;" src="./img/tick_button.png"/>
+                                        </div>
+
+                                        <div class="contain_layout"></div>
+                                    </div>
+                                </td>
+                                <td class="td_10">
+                                    <div style="width: 100%;height: 100%; padding: 10px">
+                                        <div class="down_service_item_nomaltext_margin">大小</div>
+                                        <div class="down_service_item_nomaltext_margin">552.86KB</div>
+                                        <div class="down_service_item_nomaltext_margin">552.05KB</div>
+                                        <div class="down_service_item_nomaltext_margin">552.86KB</div>
+                                        <div class="down_service_item_nomaltext_margin">235.02KB</div>
+                                    </div>
+                                </td>
+                                <td class="td_40">
+                                    <div style="width: 100%;height: 100%; padding: 10px;">
+                                        <div class="down_service_item_nomaltext">截止日期</div>
+                                        <div class="down_upload">
+                                            <div class="down_upload_left">
+                                                <div class="down_upload_left">2016-01-29</div>
+                                            </div>
+
+                                            <div class="down_upload_right">
+                                                <img style="height: 16px" src="./img/document_small_upload.png"
+                                                     onclick="downloadUpload()"/>
+                                            </div>
+                                        </div>
+                                        <div class="down_upload">
+                                            <div class="down_upload_left">
+                                                <div class="down_upload_left">2016-01-29</div>
+                                            </div>
+
+                                            <div class="down_upload_right">
+                                                <img style="height: 16px" src="./img/document_small_upload.png"
+                                                     onclick="downloadUpload()"/>
+                                            </div>
+                                        </div>
+                                        <div class="down_upload">
+                                            <div class="down_upload_left">
+                                                <div class="down_upload_left">2016-01-29</div>
+                                            </div>
+
+                                            <div class="down_upload_right">
+                                                <img style="height: 16px" src="./img/document_small_upload.png"
+                                                     onclick="downloadUpload()"/>
+                                            </div>
+                                        </div>
+                                        <div class="down_upload">
+                                            <div class="down_upload_left">
+                                                <div class="down_upload_left">2016-01-29</div>
+                                            </div>
+
+                                            <div class="down_upload_right">
+                                                <img style="height: 16px" src="./img/document_small_upload.png"
+                                                     onclick="downloadUpload()"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div style="border: 4px solid #D2D2D2; margin-top: 20px">
+                        <table class="table_main">
+                            <tr style="width: 100%">
+                                <td class="td_25">
+                                    <div class="down_service_item_lanrgetext">所有展位必须完成</div>
+                                </td>
+                                <td class="td_25">
+                                    <div style="width: 100%;">
+                                        <div class="down_service_item_nomaltext_margin">内容</div>
+                                        <div class="down_service_item_nomaltext_margin">
+                                            <img style="width: 20px; height: 20px;" src="./img/ebook.png"/> 表格5 标准展期套餐说明
+                                            <img style="width: 20px; height: 20px;" src="./img/icon_download.png"/>
+                                        </div>
+
+                                        <div class="down_service_item_nomaltext_margin">
+                                            <img style="width: 20px; height: 20px;" src="./img/ebook.png"/> 表格6 楣板及公司名称
+                                            <img style="width: 20px; height: 20px;" src="./img/icon_download.png"/>
+                                        </div>
+
+
+                                        <div class="down_service_item_nomaltext_margin">
+                                            <img style="width: 20px; height: 20px;" src="./img/ebook.png"/> 表格7 展位位置图
+                                            <img style="width: 20px; height: 20px;" src="./img/icon_download.png"/>
+                                        </div>
+                                        <div class="contain_layout"></div>
+                                    </div>
+                                </td>
+                                <td class="td_10">
+                                    <div style="width: 100%;height: 100%; padding: 10px;">
+                                        <div class="down_service_item_nomaltext_margin">大小</div>
+                                        <div class="down_service_item_nomaltext_margin">552.86KB</div>
+                                        <div class="down_service_item_nomaltext_margin">552.86KB</div>
+                                        <div class="down_service_item_nomaltext_margin">552.86KB</div>
+                                    </div>
+                                </td>
+                                <td class="td_40">
+                                    <div style="width: 100%;height: 100%; padding: 10px;">
+                                        <div class="down_service_item_nomaltext">截止日期</div>
+
+                                        <div class="down_upload">
+                                            <div class="down_upload_left">
+                                                <div class="down_upload_left">2016-01-29</div>
+                                            </div>
+
+                                            <div class="down_upload_right">
+                                                <img style="height: 16px" src="./img/document_small_upload.png"
+                                                     onclick="downloadUpload()"/>
+                                            </div>
+                                        </div>
+
+                                        <div class="down_upload">
+                                            <div class="down_upload_left">
+                                                <div class="down_upload_left">2016-01-29</div>
+                                            </div>
+
+                                            <div class="down_upload_right">
+                                                <img style="height: 16px" src="./img/document_small_upload.png"
+                                                     onclick="downloadUpload()"/>
+                                            </div>
+                                        </div>
+                                        <div class="down_upload">
+                                            <div class="down_upload_left">
+                                                <div class="down_upload_left">2016-01-29</div>
+                                            </div>
+
+                                            <div class="down_upload_right">
+                                                <img style="height: 16px" src="./img/document_small_upload.png"
+                                                     onclick="downloadUpload()"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div style="border: 4px solid #D2D2D2; margin-top: 20px">
+                        <table class="table_main">
+                            <tr style="width: 100%">
+                                <td class="td_25">
+                                    <div class="down_service_item_lanrgetext">光地展位必须完成</div>
+                                </td>
+                                <td class="td_25">
+                                    <div style="width: 100%;">
+                                        <div class="down_service_item_nomaltext_margin">内容</div>
+                                        <div class="down_service_item_nomaltext_margin">
+                                            <img style="width: 20px; height: 20px;" src="./img/ebook.png"/> 表格8.1
+                                            光地站台指定搭建商申报
+                                            <img style="width: 20px; height: 20px;" src="./img/icon_download.png"/>
+                                        </div>
+
+                                        <div class="down_service_item_nomaltext_margin">
+                                            <img style="width: 20px; height: 20px;" src="./img/ebook.png"/> 表格8.2
+                                            站台搭建要求及安全声明
+                                            <img style="width: 20px; height: 20px;" src="./img/icon_download.png"/>
+                                        </div>
+
+
+                                        <div class="down_service_item_nomaltext_margin">
+                                            <img style="width: 20px; height: 20px;" src="./img/ebook.png"/> 表格9.1
+                                            单层展台设计的建筑审批
+                                            <img style="width: 20px; height: 20px;" src="./img/icon_download.png"/>
+                                        </div>
+
+                                        <div class="down_service_item_nomaltext_margin">
+                                            <img style="width: 20px; height: 20px;" src="./img/ebook.png"/> 表格9.2
+                                            双层展台设计的建筑审批
+                                            <img style="width: 20px; height: 20px;" src="./img/icon_download.png"/>
+                                        </div>
+
+                                        <div class="down_service_item_nomaltext_margin">
+                                            <img style="width: 20px; height: 20px;" src="./img/ebook.png"/> 表格11
+                                            展台用水.电.压缩空气及配件
+                                            <img style="width: 20px; height: 20px;" src="./img/icon_download.png"/>
+                                        </div>
+
+                                        <div class="down_service_item_nomaltext_margin">
+                                            <img style="width: 20px; height: 20px;" src="./img/ebook.png"/> 表格9.3
+                                            展台灭火器租赁
+                                            <img style="width: 20px; height: 20px;" src="./img/icon_download.png"/>
+                                        </div>
+
+                                        <div class="down_service_item_nomaltext_margin">
+                                            <img style="width: 20px; height: 20px;" src="./img/ebook.png"/> 表格7 展位位置图
+                                            <img style="width: 20px; height: 20px;" src="./img/icon_download.png"/>
+                                        </div>
+                                        <div class="contain_layout"></div>
+                                    </div>
+                                </td>
+                                <td class="td_10">
+                                    <div style="width: 100%;height: 100%; padding: 10px;">
+                                        <div class="down_service_item_nomaltext_margin">大小</div>
+                                        <div class="down_service_item_nomaltext_margin">552.86KB</div>
+                                        <div class="down_service_item_nomaltext_margin">552.86KB</div>
+                                        <div class="down_service_item_nomaltext_margin">552.86KB</div>
+                                        <div class="down_service_item_nomaltext_margin">552.86KB</div>
+                                        <div class="down_service_item_nomaltext_margin">552.86KB</div>
+                                        <div class="down_service_item_nomaltext_margin">552.86KB</div>
+                                        <div class="down_service_item_nomaltext_margin">552.86KB</div>
+                                    </div>
+                                </td>
+                                <td class="td_40">
+                                    <div style="width: 100%;height: 100%; padding: 10px;">
+                                        <div class="down_service_item_nomaltext">截止日期</div>
+                                        <div class="down_upload">
+                                            <div class="down_upload_left">
+                                                <div class="down_upload_left">2016-01-29</div>
+                                            </div>
+
+                                            <div class="down_upload_right">
+                                                <img style="height: 16px" src="./img/document_small_upload.png"
+                                                     onclick="downloadUpload()"/>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="down_upload">
+                                            <div class="down_upload_left">
+                                                <div class="down_upload_left">2016-01-29</div>
+                                            </div>
+
+                                            <div class="down_upload_right">
+                                                <img style="height: 16px" src="./img/document_small_upload.png"
+                                                     onclick="downloadUpload()"/>
+                                            </div>
+                                        </div>
+
+                                        <div class="down_upload">
+                                            <div class="down_upload_left">
+                                                <div class="down_upload_left">2016-01-29</div>
+                                            </div>
+
+                                            <div class="down_upload_right">
+                                                <img style="height: 16px" src="./img/document_small_upload.png"
+                                                     onclick="downloadUpload()"/>
+                                            </div>
+                                        </div>
+
+                                        <div class="down_upload">
+                                            <div class="down_upload_left">
+                                                <div class="down_upload_left">2016-01-29</div>
+                                            </div>
+
+                                            <div class="down_upload_right">
+                                                <img style="height: 16px" src="./img/document_small_upload.png"
+                                                     onclick="downloadUpload()"/>
+                                            </div>
+                                        </div>
+
+                                        <div class="down_upload">
+                                            <div class="down_upload_left">
+                                                <div class="down_upload_left">2016-01-29</div>
+                                            </div>
+
+                                            <div class="down_upload_right">
+                                                <img style="height: 16px" src="./img/document_small_upload.png"
+                                                     onclick="downloadUpload()"/>
+                                            </div>
+                                        </div>
+
+                                        <div class="down_upload">
+                                            <div class="down_upload_left">
+                                                <div class="down_upload_left">2016-01-29</div>
+                                            </div>
+
+                                            <div class="down_upload_right">
+                                                <img style="height: 16px" src="./img/document_small_upload.png"
+                                                     onclick="downloadUpload()"/>
+                                            </div>
+                                        </div>
+
+                                        <div class="down_upload">
+                                            <div class="down_upload_left">
+                                                <div class="down_upload_left">2016-01-29</div>
+                                            </div>
+
+                                            <div class="down_upload_right">
+                                                <img style="height: 16px" src="./img/document_small_upload.png"
+                                                     onclick="downloadUpload()"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div style="border: 4px solid #D2D2D2; margin-top: 20px">
+                        <table class="table_main">
+                            <tr style="width: 100%">
+                                <td class="td_25">
+                                    <div class="down_service_item_lanrgetext">其它可选择的服务</div>
+                                </td>
+                                <td class="td_25">
+                                    <div style="width: 100%;">
+                                        <div class="down_service_item_nomaltext_margin">内容</div>
+                                        <div class="down_service_item_nomaltext_margin">
+                                            <img style="width: 20px; height: 20px;" src="./img/ebook.png"/> 表格7 展位位置图
+                                            <img style="width: 20px; height: 20px;" src="./img/icon_download.png"/>
+                                        </div>
+
+                                        <div class="down_service_item_nomaltext_margin">
+                                            <img style="width: 20px; height: 20px;" src="./img/ebook.png"/> 表格10
+                                            电器设备及配件（标准展位）
+                                            <img style="width: 20px; height: 20px;" src="./img/icon_download.png"/>
+                                        </div>
+
+                                        <div class="down_service_item_nomaltext_margin">
+                                            <img style="width: 20px; height: 20px;" src="./img/ebook.png"/> 表格11
+                                            展台水.电.压缩空气及配件
+                                            <img style="width: 20px; height: 20px;" src="./img/icon_download.png"/>
+                                        </div>
+
+                                        <div class="down_service_item_nomaltext_margin">
+                                            <img style="width: 20px; height: 20px;" src="./img/ebook.png"/> 表格12 吊点及广告赞助
+                                            <img style="width: 20px; height: 20px;" src="./img/icon_download.png"/>
+                                        </div>
+
+
+                                        <div class="down_service_item_nomaltext_margin">
+                                            <img style="width: 20px; height: 20px;" src="./img/ebook.png"/> 表格13 会议室预定
+                                            <img style="width: 20px; height: 20px;" src="./img/icon_download.png"/>
+                                        </div>
+
+                                        <div class="down_service_item_nomaltext_margin">
+                                            <img style="width: 20px; height: 20px;" src="./img/ebook.png"/> 表格14 额外家具租赁
+                                            <img style="width: 20px; height: 20px;" src="./img/icon_download.png"/>
+                                        </div>
+                                        <div class="contain_layout"></div>
+                                    </div>
+                                </td>
+
+                                <td class="td_10">
+                                    <div style="width: 100%;height: 100%; padding: 10px;">
+                                        <div class="down_service_item_nomaltext_margin">大小</div>
+                                        <div class="down_service_item_nomaltext_margin">552.86KB</div>
+                                        <div class="down_service_item_nomaltext_margin">552.86KB</div>
+                                        <div class="down_service_item_nomaltext_margin">552.86KB</div>
+                                        <div class="down_service_item_nomaltext_margin">552.86KB</div>
+                                        <div class="down_service_item_nomaltext_margin">552.86KB</div>
+                                        <div class="down_service_item_nomaltext_margin">552.86KB</div>
+                                    </div>
+                                </td>
+
+                                <td class="td_40">
+                                    <div style="width: 100%;height: 100%; padding: 10px;">
+                                        <div class="down_service_item_nomaltext">截止日期</div>
+                                        <div class="down_upload">
+                                            <div class="down_upload_left">
+                                                <div class="down_upload_left">2016-01-29</div>
+                                            </div>
+
+                                            <div class="down_upload_right">
+                                                <img style="height: 16px" src="./img/document_small_upload.png"
+                                                     onclick="downloadUpload()"/>
+                                            </div>
+                                        </div>
+
+                                        <div class="down_upload">
+                                            <div class="down_upload_left">
+                                                <div class="down_upload_left">2016-01-29</div>
+                                            </div>
+
+                                            <div class="down_upload_right">
+                                                <img style="height: 16px" src="./img/document_small_upload.png"
+                                                     onclick="downloadUpload()"/>
+                                            </div>
+                                        </div>
+
+                                        <div class="down_upload">
+                                            <div class="down_upload_left">
+                                                <div class="down_upload_left">2016-01-29</div>
+                                            </div>
+
+                                            <div class="down_upload_right">
+                                                <img style="height: 16px" src="./img/document_small_upload.png"
+                                                     onclick="downloadUpload()"/>
+                                            </div>
+                                        </div>
+
+                                        <div class="down_upload">
+                                            <div class="down_upload_left">
+                                                <div class="down_upload_left">2016-01-29</div>
+                                            </div>
+
+                                            <div class="down_upload_right">
+                                                <img style="height: 16px" src="./img/document_small_upload.png"
+                                                     onclick="downloadUpload()"/>
+                                            </div>
+                                        </div>
+
+                                        <div class="down_upload">
+                                            <div class="down_upload_left">
+                                                <div class="down_upload_left">2016-01-29</div>
+                                            </div>
+
+                                            <div class="down_upload_right">
+                                                <img style="height: 16px" src="./img/document_small_upload.png"
+                                                     onclick="downloadUpload()"/>
+                                            </div>
+                                        </div>
+                                        <div class="down_upload">
+                                            <div class="down_upload_left">
+                                                <div class="down_upload_left">2016-01-29</div>
+                                            </div>
+
+                                            <div class="down_upload_right">
+                                                <img style="height: 16px" src="./img/document_small_upload.png"
+                                                     onclick="downloadUpload()"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
+
+                <footer>
+                    <div style="margin: 10px; text-align: center">
+                        <span>创意时代版权所有 CASNHJH @ 2000-2016 </span> <a>粤IPC 备 093795475 号 | 隐私政策 | 免费条款</a><br/>
+                        <span>电话：（86）755 88743 8357 传真：（86）755 88743 8675</span>
+                    </div>
+                </footer>
+            </div>
+            <!-- /#page-wrapper -->
+        </div>
+    </div>
+</div>
+<!-- /#wrapper -->
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/download_data.js"></script>
+</body>
+</html>

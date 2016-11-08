@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/comment.css" rel="stylesheet">
+    <link href="css/exhibitors.css" rel="stylesheet">
+
+    <script src="js/exhibitors.js"></script>
+<body class="exhibitors_body">
+
+<div class="exhibitors_head_title">
+    <img src="./img/title_logo.png" style="height: 50px;margin-right: 20px">
+    <span class="exhibitors_large_font">新品在线提交</span>
+</div>
+
+<div id="exhibitors_number">
+    <div style="float: left">首页列表>>展商新品发布</div>
+    <div style="float: right">参展商编号:41327 展位编号:3A25</div>
+</div>
+
+<div id="exhibitors_content_body">
+    <div style="display: table; width:100%; height: 50px; background-color: #D9E3ED; overflow: hidden;">
+        <div style="display: table-row">
+            <div style="width: 6px;display: table-cell; background-color: #ACC1D7">
+            </div>
+            <div style="width: 6px;display: table-cell; background-color: #E1EEFF">
+            </div>
+            <div class="exhibitors_cell_center">
+                <span class="exhibitors_content_top_head_right_text">展商新品发布</span>
+            </div>
+        </div>
+    </div>
+
+    <div style="display: table; width:100%; background-color: #ffffff; overflow: hidden;">
+        <div class="exhibitors_row_gray">
+            <div class="exhibition_item_left">
+                <div class="exhibitros_item_text_right">展会名称</div>
+            </div>
+            <div style="width: 1px;display: table-cell; background-color: #ffffff"></div>
+            <div class="exhibitors_cell_center">
+                <span class="exhibitros_item_text_left">第五届深圳国际嵌入式系统展</span>
+            </div>
+        </div>
+
+        <div class="exhibitors_row_white">
+            <div class="exhibition_item_left">
+                <div class="exhibitros_item_text_right">展商名称</div>
+            </div>
+            <div style="width: 1px;display: table-cell; background-color: #ffffff"></div>
+            <div class="exhibitors_cell_center">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-6">深圳市优恩半导体公司</div>
+                        <div class="col-xs-6">展位号：3A25</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="exhibitors_row_gray">
+            <div class="exhibition_item_left">
+                <div class="exhibitros_item_text_right">产品应用领域</span></div>
+            </div>
+            <div style="width: 1px;display: table-cell; background-color: #ffffff"></div>
+            <div class="exhibitors_cell_center">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <input type="checkbox" value="0" name="items"/> 工业控制与自动化
+                        </div>
+                        <div class="col-xs-3">
+                            <input type="checkbox" value="1" name="items"> 汽车电子
+                        </div>
+                        <div class="col-xs-3">
+                            <input type="checkbox" value="2" name="items"> 通信及网络设备
+                        </div>
+                        <div class="col-xs-3">
+                            <input type="checkbox" value="3" name="items"> 公共服务
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <input type="checkbox" value="4" name="items"> 安防设备
+                        </div>
+                        <div class="col-xs-3">
+                            <input type="checkbox" value="5" name="items"> 科研院及大学
+                        </div>
+                        <div class="col-xs-3">
+                            <input type="checkbox" value="6" name="items"> 交通轨道
+                        </div>
+                        <div class="col-xs-3">
+                            <input type="checkbox" value="7" name="items"> 物联网
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <input type="checkbox" value="8" name="items"> 电力电工
+                        </div>
+                        <div class="col-xs-3">
+                            <input type="checkbox" value="9" name="items"> 医疗电子
+                        </div>
+                        <div class="col-xs-3">
+                            <input type="checkbox" value="10" name="items"> 其它
+                        </div>
+                        <div class="col-xs-3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="exhibitors_row_white">
+            <div class="exhibition_item_left">
+                <div class="exhibitros_item_text_right"></div>
+            </div>
+            <div style="width: 1px;display: table-cell; background-color: #ffffff"></div>
+            <div style="display: table-cell; padding-top: 10px;padding-bottom: 10px">
+                <div style="float: right">
+                    <button type="button" class="btn btn-default" style="margin-right: 6px;background-color: #f0F5F5;" data-toggle="modal" data-target="#"
+                            onclick="addNewTable()">
+                        <span class="exhibitor_badge_pinktext">添加新产品</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <table style="width: 100%" id="time_table">
+
+    </table>
+    <!--<table style="width: 100%;" >
+        <tbody  style="overflow-y: scroll; width: 100%">
+        <tr class="exhibition_table_tr">
+            <td class="exhibition_td_left">
+                <div class="exhibitros_item_text_right">产品名称 1</div>
+            </td>
+            <td style="width: 1px; background-color: #ffffff"></td>
+            <td class="exhibitors_td_center">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-6"><input
+                                style="width: 300px; height: 40px; line-height: 40px; margin: 10px 10px 10px 0px;">
+                        </div>
+                        <div class="col-xs-6">
+                            <button class="btn btn-danger"
+                                    style="width: 60px; height: 40px; margin: 10px 10px 10px 0px;" onclick="del()">删除
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+        <tr class="exhibitors_tr_white">
+            <td>
+                <div style="height: 1px;background-color: #ffffff"></div>
+            </td>
+        </tr>
+
+        <tr class="exhibitors_tr_gray">
+            <td class="exhibition_td_left">
+                <div class="exhibitros_item_text_right">产品介绍</div>
+            </td>
+            <td style="width: 1px; background-color: #ffffff"></td>
+            <td class="exhibitors_td_center">
+                <div>
+                    <input style="min-width: 99%; min-height: 80px; margin:1px 3px 3px 15px;">
+                    <div class="exhibition_red_text">* 限300字以内， 只填写产品介绍</div>
+                </div>
+            </td>
+        </tr>
+
+        <tr class="exhibitors_tr_white">
+            <td>
+                <div style="height: 1px;background-color: #ffffff"></div>
+            </td>
+        </tr>
+
+        <tr class="exhibitors_tr_gray">
+            <td class="exhibition_td_left">
+                <div class="exhibitros_item_text_right">产品图片</div>
+            </td>
+            <td style="width: 1px; background-color: #ffffff"></td>
+            <td class="exhibitors_td_center">
+                <div style="display: table">
+                    <div style="display: table-row">
+                        <div style="display: table-cell">
+                            <input style='width: 300px;height: 20px;margin-left: 15px; background-color: #ffffff' type='file'>
+                        </div>
+                        <div style="display: table-cell">
+                            <div class="exhibition_blue_text_special"> 上传</div>
+                        </div>
+                        <div style="display: table-cell">
+                            <div class="exhibition_red_text"> 请上传分辨率为200dpi的高清晰图片， 文件大小在800kb 以内</div>
+                        </div>
+                    </div>
+                    <div style="display: table-row">
+                        <div style="display: table-cell">
+                            <a href="#" style="margin: 10px 0px 10px 15px;">12345623153.jpg</a>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+    </table>-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-6">
+                <div style="float: right;">
+                    <input type="button" class="comment_cancel" onClick="javascript :history.go(-1);" value="取消"/>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div style="float: left">
+                    <input type="button" class="comment_commit" onClick="javascript :history.go(-1);" value="提交"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div style="margin: 10px; text-align: center">
+        <span>创意时代版权所有 CASNHJH @ 2000-2016 </span> <a>粤IPC 备 093795475 号 | 隐私政策 | 免费条款</a><br/>
+        <span>电话：（86）755 88743 8357 传真：（86）755 88743 8675</span>
+    </div>
+</footer>
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

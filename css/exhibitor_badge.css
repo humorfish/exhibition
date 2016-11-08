@@ -1,0 +1,150 @@
+.exhibitor_body {
+    margin:0px;
+    padding: 0px;
+    width: 100%;
+    font-family: 宋体;
+    font-weight: bold;
+    display: table;
+}
+
+.exhibitor_badge_title {
+    background-color: #E0EDFE;
+    border: 1px solid #ABB5BE;
+    text-align: start;
+}
+
+
+.table_item_title_4 {
+    width: 4%;
+    height: 60px;
+    text-align: center;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 6px;
+    color: #000000;
+}
+
+.table_item_title_16 {
+    width: 16%;
+    height: 60px;
+    text-align: center;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 6px;
+    color: #000000;
+}
+
+.table_tile_text_little {
+    font-size: 10px;
+    font-weight: bold;
+    margin: 6px;
+    color: #000000;
+}
+
+.table_tile_text_green {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 6px;
+    color: #3A376C;
+}
+
+.exhibitor_badge_pinktext {
+    font-size: 10px;
+    font-weight: bold;
+    margin: 6px;
+    color: #AF35AE;
+}
+
+.exhibitor_badge_redtext {
+    font-size: 10px;
+    font-weight: bold;
+    margin: 6px 6px 0px 6px;
+    color: #A32638;
+}
+
+.exhibitor_badge_button {
+    margin: 6px 6px 0px 6px;
+    width: 160px;
+    height: 30px;
+    border-radius: 30px;
+    background: #E1E2E6;
+    border: 1px solid #F0F0F0;
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+}
+
+.exhibitor_badge_outside {
+    margin: 4px;
+    width: 100%;
+    display: table;
+}
+
+.exhibitor_badge_dialog {
+    background-color: transparent;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+}
+
+.exhibitor_badge_dialog_content {
+    background-color: #ffffff;
+    border: 1px solid #D3D9E7;
+    margin: 6px 6px 6px 6px;
+}
+
+.exhibitor_badge_content_left{
+    height: 100%;
+    vertical-align: middle;
+    display: table-cell;
+    align-items: center;
+    width: 140px;
+    font-weight: bold;
+}
+
+.exhibitors_badge_cell_center {
+    height: 100%;
+    vertical-align: middle;
+    display: table-cell;
+    align-items: center;
+}
+
+.exhibitors_badge_cell_right {
+    height: 100%;
+    vertical-align: middle;
+    display: table-cell;
+    float: right;
+    margin: 6px;
+}
+
+.exhibitros_badge_item_text_right {
+    float: right;
+    padding: 6px 0px 6px 0px
+}
+
+.exhibitros_badge_item_text_left {
+    float: left;
+    padding: 6px 0px 6px 0px
+}
+
+.exhibitor_badge_dialog_content_border {
+    border: 1px solid #D2DAE5;
+    margin: 4px 4px 4px 4px;
+    padding: 6px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.exhibitor_badge_dialog_text_right {
+    width: 100%;
+    float: right;
+    text-align: end;
+    margin-right: 10px;
+}
+
+.exhibitor_badge_dialog_bluetxt {
+    color: #36628F;
+}
+

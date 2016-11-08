@@ -1,0 +1,97 @@
+/*!
+ * Start Bootstrap - SB Admin (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+#wrapper {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#page-wrapper {
+    width: 100%;
+    padding: 0;
+}
+
+.showNavBar{
+    padding-left: 10px;
+    display: block;
+}
+
+.head_cell_center {
+    height: 100%;
+    vertical-align: middle;
+    display: table-cell;
+    align-items: center;
+}
+
+.head_cell_center_right {
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    display: table-cell;
+    align-items: center;
+    float: right;
+}
+
+.nav_content_title {
+    padding: 10px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.nav_content_innertitle {
+    padding: 4px;
+    height: 26px;
+    color: #ffffff;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+
+/*
+@media screen and (min-width: 768px) {
+    #wrapper {
+        padding-left: 225px;
+    }
+
+    #page-wrapper {
+        padding: 10px;
+    }
+
+    .showNavBar{
+        padding-left: 10px;
+        display: none;
+    }
+}
+
+!* Side Navigation *!
+@media screen and (min-width: 768px) {
+    .side-nav {
+        position: fixed;
+        top: 60px;
+        left: 225px;
+        width: 225px;
+        margin-left: -225px;
+        border: none;
+        border-radius: 0;
+        overflow-y: auto;
+        background-color: #ffffff;
+        bottom: 0;
+        overflow-x: hidden;
+        padding-bottom: 40px;
+    }
+
+    .side-nav > li > a {
+        width: 225px;
+    }
+
+    .side-nav li a:hover,
+    .side-nav li a:focus {
+        outline: none;
+        background-color: darkorange !important;
+    }
+}*/

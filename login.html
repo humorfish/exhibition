@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./css/login.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/comment.css">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css"/>
+    <div class="container-fluid" style="width: 100%; height: 60px;">
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="head_cell_center">
+                    <img src="./img/logo.png" style="height: 60px;padding: 5px 0px 5px 0px">
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="head_cell_center_right">
+                    <div style="float:right; height:60px;line-height:60px;overflow:hidden;">
+                            <span>
+                                <span>中文</span>
+                                <span>|</span>
+                                <span>English</span>
+                            </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar-border"></div>
+
+</head>
+<body class="login-body-color">
+<div class="Loginbox">
+    <span class="Loginbox-font">登录</span>
+    <div class="Loginbox-Line">
+
+    </div>
+    <div>
+        <nobr>
+            <div>
+                <span>姓名</span>
+                <input class="Loginbox-color" id="login_name" value="">
+            </div>
+        </nobr>
+        <nobr>
+            <div style="margin-top: 20px; ">
+                <span>密码</span>
+                <input class="Loginbox-color" id="login_password" value="">
+            </div>
+        </nobr>
+        <p>
+            <a class="btn btn-primary Login-button" href="index.html">登录</a>
+            <script type="text/javascript">
+                function login_logic() {
+                    var password = document.getElementById('login_password').value;
+                    var name = document.getElementById('login_name').value;
+                    window.location.href = 'index.html';
+                }
+
+            </script>
+        </p>
+    </div>
+</div>
+
+<div class="footer">
+    <div style="margin: 10px; text-align: center">
+        <span>创意时代版权所有 CASNHJH @ 2000-2016 </span> <a>粤IPC 备 093795475 号 | 隐私政策 | 免费条款</a><br/>
+        <span>电话：（86）755 88743 8357 传真：（86）755 88743 8675</span>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link href="css/comment.css" rel="stylesheet">
+    <link href="css/upload.css" rel="stylesheet">
+</head>
+<body class="upload_body">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-2 comment_nav"></div>
+        <div class="col-xs-8" style="background-color:#ffffff;padding: 10px;">
+            <div class="container-fluid" style="margin: 10px; padding: 30px 10px 30px 10px; border: 1px solid #0E9BC1;">
+                <div class="row">
+                    <div style="width: 100%">
+                        <div class="btn-group" style="float: left; margin-left: 20px">
+                            <button type="button" class="upload_button" data-toggle="modal" data-target="#">
+                                <span class="exhibitor_badge_pinktext">扫码上传</span>
+                            </button>
+
+                            <button type="button" class="upload_button" data-toggle="modal" data-target="#" onclick="addNewRow()">
+                                <span class="exhibitor_badge_pinktext">上传</span>
+                            </button>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="upload_code">
+                        <img src="./img/qr_code.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-2"></div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-4"></div>
+        <div class="col-xs-4">
+            <div class="container-fluid" style="height: 100px">
+                <div class="row">
+                    <div class="col-xs-4"></div>
+                    <div class="col-xs-4">
+                        <img style="width: 60px; height: 60px; margin: 20px 0px 20px 0px"
+                             src="./img/photo.png">
+                    </div>
+                    <div class="col-xs-4" style="height: 100px;">
+                            <img style="padding: 30px 0px 30px 0px; float: left" src="./img/minus_alt.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-4">
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" style="margin-top: 30px">
+    <div class="row">
+        <div class="col-xs-6">
+            <div style="float: right;">
+                <input type="button" class="comment_cancel" onClick="javascript :history.go(-1);" value="取消"/>
+            </div>
+        </div>
+        <div class="col-xs-6">
+            <div style="float: left">
+                <input type="button" class="comment_commit" onClick="javascript :history.go(-1);" value="提交"/>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

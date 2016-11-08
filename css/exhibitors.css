@@ -1,0 +1,283 @@
+.exhibitors_body {
+    margin: 0px;
+    width: 100%;
+    font-family: 宋体;
+    font-weight: bold;
+}
+
+#exhibitors_page-wrapper{
+    width: 100%;
+    margin-top: 60px;
+}
+
+.exhibitors_title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.exhibitors_head {
+    background-color: #E0EDFE;
+    width: 100%;
+    margin-top: 60px;
+    padding: 4px  4px 4px 4px;
+}
+
+.exhibitors_large_font {
+    height: 100%;
+    font-size: 28px;
+    color: #015488;
+}
+
+.exhibitors_normal_font {
+    font-size: 14px;
+    color: #015488;
+}
+
+.exhibitors_head_buttom {
+    background-color: #015488;
+    margin: 5px;
+    height: 14px;
+}
+
+.exhibitors_row_gray {
+    width: 100%;
+    display: table-row;
+    background-color: #EFEFEF;
+    color: #005681;
+    font-size: 10px;
+}
+
+.exhibitors_row_white {
+    width: 100%;
+    display: table-row;
+    background-color: #ffffff;
+    color: #005681;
+    font-size: 10px;
+}
+
+.exhibitros_item_text_left {
+    float: left;
+    padding: 10px 0px 10px 15px
+}
+
+.exhibitros_item_text_right {
+    float: right;
+    padding: 16px 15px 16px 10px
+}
+
+.exhibition_item_left {
+    height: 100%;
+    vertical-align: middle;
+    display: table-cell;
+    align-items: center;
+    width: 140px;
+    color: #005681;
+}
+
+.exhibitors_left {
+    float: left;
+}
+
+.exhibitors_right {
+    float: right;
+}
+
+.exhibitors_box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.details_tab {
+    height: 20px;
+    background-color: #B0C8EA;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-right: 2px;
+}
+
+.details_tab_font {
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+.exhibitors_head_title_box {
+    margin: 20px;
+}
+
+.exhibitors_head_title {
+    min-height: 50px;
+    width: 100%;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: top;
+    padding: 10px;
+}
+
+#exhibitors_number {
+    color: #005681;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: table;
+    width: 100%;
+}
+
+#exhibitors_content_body {
+    border: 5px solid #015488;
+    margin: 0px 10px 10px 10px;
+    padding: 3px;
+    color: #005681;
+    display: table;
+    width: 99%;
+}
+
+.exhibitors_cell_center {
+    height: 100%;
+    vertical-align: middle;
+    display: table-cell;
+    align-items: center;
+}
+
+.exhibitors_content_top_head {
+    background-color: #D9E3ED;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.exhibitors_content_top_head_left {
+    background-color: #ACC1D7;
+    width: 10px;
+    height: 50px;
+    display: flex;
+}
+
+.exhibitors_content_top_head_center {
+    background-color: #E1EEFF;
+    width: 10px;
+    height: 50px;
+    display: flex;
+}
+
+.exhibitors_content_top_head_right {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.exhibitors_content_top_head_right_text {
+    color: #005681;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.exhibition_item {
+    width: 100%;
+    color: #005681;
+    font-size: 10px;
+}
+
+.exhibition_item_left_grey {
+    background-color: #EFEFEF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100px;
+    margin-right: 2px;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.exhibition_item_right_grey_nomal {
+    background-color: #EFEFEF;
+    margin-right: 2px;
+}
+
+.exhibition_item_right_grey {
+    background-color: #EFEFEF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+}
+
+.exhibition_item_right {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+}
+
+
+.checkbox_species {
+    display: table-cell;
+    width: 360px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #005681;
+    font-size: 10px;
+}
+
+.exhibition_blue_text {
+    color: #005681;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.exhibition_red_text {
+    color: #F93F5A;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    font-size: 10px;
+}
+
+.exhibition_blue_text_special {
+    color: #000000;
+    margin: 5px;
+    font-size: 10px;
+}
+
+
+.exhibition_table_tr{
+    width: 100%;
+    background-color: #EFEFEF;
+    color: #005681;
+    font-size: 10px;
+}
+
+.exhibition_td_left {
+    height: 100%;
+    vertical-align: middle;
+    align-items: center;
+    width: 140px;
+    color: #005681;
+}
+
+.exhibitors_td_center {
+    height: 100%;
+    vertical-align: middle;
+    align-items: center;
+}
+
+
+.exhibitors_tr_white {
+    width: 100%;
+    background-color: #ffffff;
+    color: #005681;
+    font-size: 10px;
+}
+
+.exhibitors_tr_gray {
+    width: 100%;
+    background-color: #EFEFEF;
+    color: #005681;
+    font-size: 10px;
+}
+
+

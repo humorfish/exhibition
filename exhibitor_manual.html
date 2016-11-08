@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!--&ndash; Bootstrap Core CSS &ndash;-->
+    <link href="css/comment.css" rel="stylesheet">
+
+    <!-- Bootstrap Core CSS-->
+    <link href="css/exhibitor_manual.css" rel="stylesheet">
+</head>
+
+<body class="comment_body">
+<div class="navbar navbar-fixed-top"
+     style="width: 100%; height: 60px; padding: 0px 10px 0px 10px;  background-color: #ffffff">
+    <div class="container" style="width: 100%; padding: 0; margin: 0">
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="head_cell_center">
+                    <img src="./img/logo.png" style="height: 60px;padding: 5px 0px 5px 0px">
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="head_cell_center_right">
+                    <div style="float:right; height:60px;line-height:60px;overflow:hidden;">
+                            <span>
+                                <span>中文</span>
+                                <span>|</span>
+                                <span>English</span>
+                            </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--<a class="showNavBar">
+            <button data-toggle="collapse" data-target=".navbar-collapse-my" class="btn btn-primary">
+                导航栏<i class="fa fa-fw fa-caret-down"></i>
+            </button>
+    </a>-->
+</div>
+
+<!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+<div class="commemt_content">
+    <div class="container" style="width: 100%; padding: 0; margin: 0">
+        <div class="row">
+            <div class="col-xs-2 comment_nav">
+                <div href="javascript:;" data-toggle="collapse" data-target="#title" class="nav_content_title">
+                    <span>2015 上海电子展</span><i class="fa fa-fw fa-caret-down"></i>
+                </div>
+
+                <ul id="title" class="collapse in" style="padding: 0px 8px 0px 8px; margin: 0;  list-style:none;">
+                    <li style="margin: 0">
+                        <div href="javascript:;" data-toggle="collapse" data-target="#title_content1"
+                             class="nav_content_innertitle">
+                            您需填写...
+                        </div>
+                        <div id="title_content1" class="collapse in">
+                            <ul style="list-style: none;border: 1px solid #4490C1; padding: 2px 2px 2px 0px; margin-bottom: 2px; margin-top: 0px; color: #9C9C9C;">
+                                <li class="unchoose_line">
+                                    <a class="a_right"
+                                       href="index.html"
+                                       target="_self">提交公司资料<img src="./img/green_yes.png"
+                                                                 class="img_right"/></a>
+                                </li>
+                                <li class="unchoose_line">
+                                    <a class="a_right"
+                                       href="online_product.html"
+                                       target="_self">上传展品资料<img src="./img/green_yes.png"
+                                                                 class="img_right"/></a>
+                                </li>
+                                <li class="unchoose_line">
+                                    <a class="a_right"
+                                       href="exhibitor_badge.html"
+                                       target="_self">上传展商胸卡<img class="img_right"
+                                                                 src="./img/green_yes.png"/></a>
+                                </li>
+                                <li class="unchoose_line">
+                                    <a class="a_right"
+                                       href="elect_invite.html"
+                                       target="_self">贵宾观众电子邀请卡<img src="./img/yellow_ask.png"
+                                                                    class="img_right"/></a>
+                                </li>
+                                <li class="unchoose_line">
+                                    <a class="a_right"
+                                       href="weixin_invite.html"
+                                       target="_self">贵宾观众微信邀请卡<img src="./img/yellow_ask.png"
+                                                                    class="img_right"/></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li style="margin:0px 0px 1px 0px">
+                        <div href="javascript:;" data-toggle="collapse" data-target="#title_content2"
+                             class="nav_content_innertitle">
+                            您需下载...
+                        </div>
+                        <div id="title_content2" class="collapse in">
+                            <ul style="list-style:none;border: 1px solid #4490C1; padding: 2px 2px 2px 0px; margin-bottom: 2px; margin-top: 0px; color: #9C9C9C;">
+                                <li class="unchoose_line">
+                                    <a class="a_right"
+                                       href="download_data.html" target="_self">需下载资料<img
+                                            src="./img/yellow_ask.png" class="img_right"/></a>
+                                </li>
+                                <li class="choosed_line">
+                                    <a class="a_right"
+                                       href="exhibitor_manual.html"
+                                       target="_self">展商手册<img src="./img/yellow_ask.png" class="img_right"/></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
+                <div href="javascript:;" data-toggle="collapse" data-target="#title" class="nav_content_title">
+                    <span>2015 上海电子展</span><i class="fa fa-fw fa-caret-up"></i>
+                </div>
+            </div>
+            <div class="col-xs-10">
+                <div class="comment_divider"></div>
+
+                <div class="exhibitor_manual_head_title">
+                    <img src="./img/title_logo.png" style="height: 50px;margin-right: 20px">
+                    <span class="exhibitors_large_font">网上参展商手册</span>
+                </div>
+
+                <div class="exhibitor_manual_number">
+                    <div style="float: right">参展商编号:41327 展位编号:3A25 摊位类型:展商（18㎡）</div>
+                </div>
+
+                <div class="exhibitor_manual_content_body">
+                    <div style="display: table; width:100%; height: 50px; background-color: #D9E3ED; overflow: hidden;">
+                        <div style="display: table-row">
+                            <div style="width: 6px;display: table-cell; background-color: #ACC1D7">
+                            </div>
+                            <div style="width: 6px;display: table-cell; background-color: #E1EEFF">
+                            </div>
+                            <div class="exhibitors_cell_center">
+                                <span class="exhibitors_content_top_head_right_text">会刊登记资料</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="display: table; width:100%; height: 50px; background-color: #ffffff; overflow: hidden;">
+                        <div class="exhibitors_row_gray">
+                            <div class="exhibition_item_left">
+                                <div class="exhibitros_item_text_right">展会名称</div>
+                            </div>
+                            <div style="width: 1px;display: table-cell; background-color: #ffffff"></div>
+                            <div class="exhibitors_cell_center">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-xs-6">第五届深圳国际嵌入式系统展</div>
+                                        <div class="col-xs-6">地点 ：深圳会展中心</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="exhibitors_row_white">
+                            <div class="exhibition_item_left">
+                                <div class="exhibitros_item_text_right">合同名称</div>
+                            </div>
+                            <div style="width: 1px;display: table-cell; background-color: #ffffff"></div>
+                            <div class="exhibitors_cell_center">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-xs-6">深圳市优恩半导体公司</div>
+                                        <div class="col-xs-6">展期：2016年8月24-26日</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="exhibitors_row_gray">
+                            <div class="exhibition_item_left">
+                                <div class="exhibitros_item_text_right">公司名称<span style="color: #ff0b39"> *</span></div>
+                            </div>
+                            <div style="width: 1px;display: table-cell; background-color: #ffffff"></div>
+                            <div class="exhibitors_cell_center">
+                                <input style="width: 300px; margin: 10px;" placeholder="深圳市优恩半导体公司">
+                            </div>
+                        </div>
+
+                        <div class="exhibitors_row_white">
+                            <div class="exhibition_item_left">
+                                <div class="exhibitros_item_text_right">公司名称（英文）</div>
+                            </div>
+                            <div style="width: 1px;display: table-cell; background-color: #ffffff"></div>
+                            <div class="exhibitors_cell_center">
+                                <input style="width: 300px; margin: 10px;"
+                                       placeholder="Shenzhen UN semiconductor Company Limited">
+                            </div>
+                        </div>
+
+                        <div class="exhibitors_row_gray">
+                            <div class="exhibition_item_left">
+                                <div class="exhibitros_item_text_right">地址<span style="color: #ff0b39"> *</span></div>
+                            </div>
+                            <div style="width: 1px;display: table-cell; background-color: #ffffff"></div>
+                            <div class="exhibitors_cell_center">
+                                <input style="width: 300px; margin: 10px;" placeholder="深圳市龙华新区">
+                            </div>
+                        </div>
+
+                        <div class="exhibitors_row_white">
+                            <div class="exhibition_item_left">
+                                <div class="exhibitros_item_text_right">邮编</div>
+                            </div>
+                            <div style="width: 1px;display: table-cell; background-color: #ffffff"></div>
+                            <div class="exhibitors_cell_center">
+                                <input style="width: 300px; margin: 10px;"
+                                       placeholder="Shenzhen UN semiconductor Company Limited">
+                            </div>
+                        </div>
+
+                        <div class="exhibitors_row_gray">
+                            <div class="exhibition_item_left">
+                                <div class="exhibitros_item_text_right">公司电话<span style="color: #ff0b39"> *</span></div>
+                            </div>
+                            <div style="width: 1px;display: table-cell; background-color: #ffffff"></div>
+                            <div class="exhibitors_cell_center">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-xs-4">
+                                                        <div>国家</div>
+                                                        <input style="width: 60px;color: #000000" placeholder="86"/>
+                                                    </div>
+                                                    <div class="col-xs-4">
+                                                        <div>区号</div>
+                                                        <input style="width: 60px;color: #000000" placeholder="86"/>
+                                                    </div>
+                                                    <div class="col-xs-4">
+                                                        <div>号码</div>
+                                                        <input style="width: 80px;color: #000000"
+                                                               placeholder="8358859"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6">
+                            <span class="exhibition_flex_row_wrap_item"
+                                  style="color:#F92E42;">如：86-755-8888888（86为中国）</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="exhibitors_row_white">
+                            <div class="exhibition_item_left">
+                                <div class="exhibitros_item_text_right">公司传真<span style="color: #ff0b39"> *</span></div>
+                            </div>
+                            <div style="width: 1px;display: table-cell; background-color: #ffffff"></div>
+                            <div class="exhibitors_cell_center">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-xs-4">
+                                                        <div>国家</div>
+                                                        <input style="width: 60px;color: #000000" placeholder="86"/>
+                                                    </div>
+                                                    <div class="col-xs-4">
+                                                        <div>区号</div>
+                                                        <input style="width: 60px;color: #000000" placeholder="86"/>
+                                                    </div>
+                                                    <div class="col-xs-4">
+                                                        <div>号码</div>
+                                                        <input style="width: 80px;color: #000000"
+                                                               placeholder="8358859"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6">
+                            <span class="exhibition_flex_row_wrap_item"
+                                  style="color:#F92E42;">如：86-755-8888888（86为中国）</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="exhibitors_row_gray">
+                            <div class="exhibition_item_left">
+                                <div class="exhibitros_item_text_right">网址<span style="color: #ff0b39"> *</span></div>
+                            </div>
+                            <div style="width: 1px;display: table-cell; background-color: #ffffff"></div>
+                            <div class="exhibitors_cell_center">
+                                <input style="width: 300px; margin: 10px;" placeholder="httm://www.unseml.com.tw">
+                            </div>
+                        </div>
+
+                        <div class="exhibitors_row_white">
+                            <div class="exhibition_item_left">
+                                <div class="exhibitros_item_text_right">E-mail<span style="color: #ff0b39"> *</span>
+                                </div>
+                            </div>
+                            <div style="width: 1px;display: table-cell; background-color: #ffffff"></div>
+                            <div class="exhibitors_cell_center">
+                                <input style="width: 300px; margin: 10px;" placeholder="linda@unseml.com.tw">
+                            </div>
+                        </div>
+
+                        <div class="exhibitors_row_gray">
+                            <div class="exhibition_item_left">
+                                <div class="exhibitros_item_text_right">现场联络人<span style="color: #ff0b39"> *</span>
+                                </div>
+                            </div>
+                            <div style="width: 1px;display: table-cell; background-color: #ffffff"></div>
+                            <div class="exhibitors_cell_center">
+                                <input style="width: 300px; margin: 10px;" placeholder="杨巧">
+                            </div>
+                        </div>
+
+                        <div class="exhibitors_row_white">
+                            <div class="exhibition_item_left">
+                                <div class="exhibitros_item_text_right">联系人手机<span style="color: #ff0b39"> *</span>
+                                </div>
+                            </div>
+                            <div style="width: 1px;display: table-cell; background-color: #ffffff"></div>
+                            <div class="exhibitors_cell_center">
+                                <input style="width: 300px; margin: 10px;" placeholder="13691886679">
+                            </div>
+                        </div>
+
+                        <div class="exhibitors_row_gray">
+                            <div class="exhibition_item_left">
+                                <div class="exhibitros_item_text_right">公司简介<span style="color: #ff0b39"> *</span></div>
+                            </div>
+                            <div style="width: 1px;display: table-cell; background-color: #ffffff"></div>
+                            <div class="exhibitors_cell_center">
+                                <div style="margin-left: 10px">
+                                    <input style="min-width: 99%; min-height: 80px; margin:1px 3px 3px 0px"
+                                           placeholder="优恩半导体公司 1994 年成立于台湾">
+                                    <div class="exhibition_red_text"> 限200字以内， 只填写公司简介</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="exhibitors_row_white">
+                            <div class="exhibition_item_left">
+                                <div class="exhibitros_item_text_right">主要产品<span style="color: #ff0b39"> *</span></div>
+                            </div>
+                            <div style="width: 1px;display: table-cell; background-color: #ffffff"></div>
+                            <div class="exhibitors_cell_center">
+                                <div style="margin-left: 10px">
+                                    <input style="min-width: 99%; min-height: 80px; margin:1px 3px 3px 0px"
+                                           placeholder="优恩半导体公司 1994 年成立于台湾">
+                                    <div class="exhibition_red_text"> 限200字以内， 只填写主要产品</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="exhibitors_row_gray">
+                            <div class="exhibition_item_left">
+                                <div class="exhibitros_item_text_right">产品应用领域<span style="color: #ff0b39"> *</span>
+                                </div>
+                            </div>
+                            <div style="width: 1px;display: table-cell; background-color: #ffffff"></div>
+                            <div class="exhibitors_cell_center">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <input type="checkbox" value="0" name="items"/> G40 工业控制与自动化
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <input type="checkbox" value="1" name="items"> G41 汽车电子
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <input type="checkbox" value="2" name="items"> G42 通信及网络设备
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <input type="checkbox" value="3" name="items"> G43 公共服务
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <input type="checkbox" value="4" name="items"> G44 安防设备
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <input type="checkbox" value="5" name="items"> G45 科研院及大学
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <input type="checkbox" value="6" name="items"> G46 交通轨道
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <input type="checkbox" value="7" name="items"> G47 物联网
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <input type="checkbox" value="8" name="items"> G48 电力电工
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <input type="checkbox" value="9" name="items"> G49 医疗电子
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <input type="checkbox" value="10" name="items"> G50 其它
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <input style="width: 300px"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="display: table; width:100%; height: 50px; background-color: #D9E3ED; overflow: hidden;">
+                        <div style="display: table-row">
+                            <div style="width: 6px;display: table-cell; background-color: #ACC1D7">
+                            </div>
+                            <div style="width: 6px;display: table-cell; background-color: #E1EEFF">
+                            </div>
+                            <div class="exhibitors_cell_center">
+                                <span class="exhibitors_content_top_head_right_text">标准展位现场搭建要求</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="display: table; width:100%; height: 50px; background-color: #ffffff; overflow: hidden;">
+                        <div class="exhibitors_row_gray">
+                            <div class="exhibition_item_left">
+                                <div class="exhibitros_item_text_right">楣板名称<span style="color: #ff0b39"> *</span></div>
+                            </div>
+                            <div style="width: 1px;display: table-cell; background-color: #ffffff"></div>
+                            <div class="exhibitors_cell_center">
+                                <input style="width: 300px; margin: 10px;" placeholder="优恩半导体有限公司">
+                                <span style="color: #ff0b39; margin-left: 10px"> 少于15个字</span>
+                            </div>
+                        </div>
+
+                        <div class="exhibitors_row_white">
+                            <div class="exhibition_item_left">
+                                <div class="exhibitros_item_text_right">楣板名称（英文）<span style="color: #ff0b39"> *</span>
+                                </div>
+                            </div>
+                            <div style="width: 1px;display: table-cell; background-color: #ffffff"></div>
+                            <div class="exhibitors_cell_center">
+                                <input style="width: 300px; margin: 10px;"
+                                       placeholder="UN Semiconductor Company Limited">
+                                <span style="color: #ff0b39; margin-left: 10px"> 少于60个英文字母</span>
+                            </div>
+                        </div>
+
+                        <div class="exhibitors_row_gray">
+                            <div class="exhibition_item_left">
+                                <div class="exhibitros_item_text_right">更改展位设置</div>
+                            </div>
+                            <div style="width: 1px;display: table-cell; background-color: #ffffff"></div>
+                            <div class="exhibitors_cell_center">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <input type="checkbox" id="select"/> 不按照楣板及楣板支架
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <input type="checkbox" value="1" name="items"> 不按照楣板
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <input type="checkbox" value="2" name="items"> 不配置询问桌
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <input type="checkbox" value="3" name="items"> 不配置椅子
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-xs-3">
+                                                    <input type="checkbox" value="4" name="items"> 排除展位隔壁
+                                                </div>
+                                                <div class="col-xs-3">
+                                                    <input type="checkbox" value="5" name="items"> 不铺设地毯
+                                                </div>
+                                                <div class="col-xs-3">
+                                                    <input type="checkbox" value="6" name="items"> 不按照射灯
+                                                </div>
+                                                <div class="col-xs-3">
+                                                    <input type="checkbox" value="7" name="items"> 不安装插座
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-xs-6">
+                                                    <input type="checkbox" value="8" name="items"> 不安装<input
+                                                        style="width: 50px;"/>面隔板（填方位）
+                                                </div>
+                                                <div class="col-xs-6">
+                                                    <input type="checkbox" value="8" name="items"> 双开口只保留<input
+                                                        style="width: 50px;"/>面开口（填方位）
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="exhibitors_row_white">
+                            <div class="exhibition_item_left">
+                                <div class="exhibitros_item_text_right">其它特别要求</div>
+                            </div>
+                            <div style="width: 1px;display: table-cell; background-color: #ffffff"></div>
+                            <div class="exhibitors_cell_center">
+                                <input style="min-width: 98%; min-height: 80px; margin:1px 3px 3px 10px"
+                                       placeholder="优恩半导体公司 1994 年成立于台湾">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="container-fluid" style="margin-top: 30px">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <div style="float: right;">
+                                    <input type="button" class="comment_cancel" onClick="javascript :history.go(-1);" value="取消"/>
+                                </div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div style="float: left">
+                                    <input type="button" class="comment_commit" onClick="javascript :history.go(-1);" value="提交"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <footer>
+                    <div style="margin: 10px; text-align: center">
+                        <span>创意时代版权所有 CASNHJH @ 2000-2016 </span> <a>粤IPC 备 093795475 号 | 隐私政策 | 免费条款</a><br/>
+                        <span>电话：（86）755 88743 8357 传真：（86）755 88743 8675</span>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <!-- /#page-wrapper -->
+    </div>
+</div>
+<!-- /#wrapper -->
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/exhibitor_manual.js"></script>
+</body>
+</html>

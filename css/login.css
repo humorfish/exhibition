@@ -1,0 +1,57 @@
+.login-body-color {
+    background-color: #f3f3f3;
+}
+
+.Loginbox {
+    border-radius: 10px 10px 10px 10px;
+    background: #ffffff;
+    padding: 20px;
+    width: 440px;
+    height: 240px;
+    border: 1px solid #a1a1a1;
+    padding: 100px 100px 10px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+.Loginbox-font {
+    font-size: 20px;
+    position: absolute;
+    right: 45px;
+    left: 45px;
+    top: 20px;
+    margin: auto;
+}
+
+.Loginbox-color {
+    background-color: #faffbd;
+    border-radius: 4px 4px 4px 4px;
+    width: 220px;
+    height: 30px;
+    border: 1px solid #a1a1a1;
+
+}
+
+.Loginbox-Line {
+    width: 340px;
+    height: 1px;
+    margin: 0px auto;
+    padding: 1px;
+    background-color: #D5D5D5;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 60px;
+}
+
+.Login-button {
+    background-color: #015486;
+    margin-left: 190px;
+    margin-top: 10px;
+}

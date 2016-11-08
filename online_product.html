@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!--&ndash; Bootstrap Core CSS &ndash;-->
+    <link href="css/comment.css" rel="stylesheet">
+
+    <!-- Bootstrap Core CSS-->
+    <link href="css/online_submit.css" rel="stylesheet">
+</head>
+<body class="comment_body">
+<div class="navbar navbar-fixed-top" style="width: 100%; height: 60px; padding: 0px 10px 0px 10px;  background-color: #ffffff">
+    <div class="container" style="width: 100%; padding: 0; margin: 0">
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="head_cell_center">
+                    <img src="./img/logo.png" style="height: 60px;padding: 5px 0px 5px 0px">
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="head_cell_center_right">
+                    <div style="float:right; height:60px;line-height:60px;overflow:hidden;">
+                            <span>
+                                <span>中文</span>
+                                <span>|</span>
+                                <span>English</span>
+                            </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--<a class="showNavBar">
+            <button data-toggle="collapse" data-target=".navbar-collapse" class="btn btn-primary">
+                导航栏<i class="fa fa-fw fa-caret-down"></i>
+            </button>
+    </a>-->
+</div>
+
+<!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+<div class="commemt_content">
+    <div class="container" style="width: 100%; padding: 0; margin: 0">
+        <div class="row">
+            <div class="col-xs-2 comment_nav" >
+                <div href="javascript:;" data-toggle="collapse" data-target="#title" class="nav_content_title">
+                    <span>2015 上海电子展</span><i class="fa fa-fw fa-caret-down"></i>
+                </div>
+
+                <ul id="title" class="collapse in" style="padding: 0px 8px 0px 8px; margin: 0;  list-style:none;">
+                    <li style="margin: 0">
+                        <div href="javascript:;" data-toggle="collapse" data-target="#title_content1"
+                             class="nav_content_innertitle">
+                            您需填写...
+                        </div>
+                        <div id="title_content1" class="collapse in">
+                            <ul style="list-style: none;border: 1px solid #4490C1; padding: 2px 2px 2px 0px; margin-bottom: 2px; margin-top: 0px; color: #9C9C9C;">
+                                <li class="unchoose_line">
+                                    <a class="a_right"
+                                       href="index.html"
+                                       target="_self">提交公司资料<img src="./img/green_yes.png"
+                                                                 class="img_right"/></a>
+                                </li>
+                                <li class="choosed_line">
+                                    <a class="a_right"
+                                       href="online_product.html"
+                                       target="_self">上传展品资料<img src="./img/green_yes.png"
+                                                                 class="img_right"/></a>
+                                </li>
+                                <li class="unchoose_line">
+                                    <a class="a_right"
+                                       href="exhibitor_badge.html"
+                                       target="_self">上传展商胸卡<img class="img_right"
+                                                                 src="./img/green_yes.png"/></a>
+                                </li>
+                                <li class="unchoose_line">
+                                    <a class="a_right"
+                                       href="elect_invite.html"
+                                       target="_self">贵宾观众电子邀请卡<img src="./img/yellow_ask.png"
+                                                                    class="img_right"/></a>
+                                </li>
+                                <li class="unchoose_line">
+                                    <a class="a_right"
+                                       href="weixin_invite.html"
+                                       target="_self">贵宾观众微信邀请卡<img src="./img/yellow_ask.png"
+                                                                    class="img_right"/></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li style="margin:0px 0px 1px 0px">
+                        <div href="javascript:;" data-toggle="collapse" data-target="#title_content2"
+                             class="nav_content_innertitle">
+                            您需下载...
+                        </div>
+                        <div id="title_content2" class="collapse in">
+                            <ul style="list-style:none;border: 1px solid #4490C1; padding: 2px 2px 2px 0px; margin-bottom: 2px; margin-top: 0px; color: #9C9C9C;">
+                                <li class="unchoose_line">
+                                    <a class="a_right"
+                                       href="download_data.html" target="_self">需下载资料<img
+                                            src="./img/yellow_ask.png" class="img_right"/></a>
+                                </li>
+                                <li class="unchoose_line">
+                                    <a class="a_right"
+                                       href="exhibitor_manual.html"
+                                       target="_self">展商手册<img src="./img/yellow_ask.png" class="img_right"/></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
+                <div href="javascript:;" data-toggle="collapse" data-target="#title" class="nav_content_title">
+                    <span>2015 上海电子展</span><i class="fa fa-fw fa-caret-up"></i>
+                </div>
+            </div>
+            <div class="col-xs-10">
+                <div class="comment_divider"></div>
+                <div class="online_submit_head_title">
+                    <div class="kite_item_middle">
+                        <img src="./img/icon_creat_action.png" style="height: 90px;">
+                    </div>
+
+                    <div class="kite_item_middle">
+                        <span class="online_submit_head_title_text"> 深圳国际嵌入式系统展<br/>新品在线提交</span>
+                    </div>
+                </div>
+                <div class="online_submit_content_body">
+                    <div style="display: table; width:100%; height: 50px; background-color: #D9E3ED; overflow: hidden;">
+                        <div style="display: table-row">
+                            <div style="width: 6px;display: table-cell; background-color: #ACC1D7">
+                            </div>
+                            <div style="width: 6px;display: table-cell; background-color: #E1EEFF">
+                            </div>
+                            <div class="exhibitors_cell_center">
+                <span style="color: #015488; tab-size: 16px">深圳某某某有限公司展品资料 新品提交过程中， 如有问题请致电语音服务0755-XXXXXX
+                Service hotline 0755-XXXXXX</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="display: table; width: 100%;">
+                        <div style="display:table-row; float: right; padding: 10px">
+                            <button class="btn btn-default" style="background-color: #f4ffe6" onclick="location.href = './exhibitors.html'">
+                                添加修改新品（ADD/Edit new product）
+                            </button>
+                        </div>
+                    </div>
+                    <!--<div class="online_submit_border_grey">
+                        <div class="row">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-xs-2">
+                                        <div class="online_submit_content_card_text_blue_left">
+                                            <div>展位号</div>
+                                            <div style="margin-top: 4px"></div>
+                                            <div>Booth No.</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <div class="online_submit_content_card_text_blue">
+                                            <div>产品名称</div>
+                                            <div style="margin-top: 4px"></div>
+                                            <div>Product Name</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <div class="online_submit_content_card_text_blue">
+                                            <div>内容摘要</div>
+                                            <div style="margin-top: 4px"></div>
+                                            <div>Content Summary</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <div class="online_submit_content_card_text_blue">
+                                            <div>图片</div>
+                                            <div style="margin-top: 4px"></div>
+                                            <div>Picture</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <div class="online_submit_content_card_text_blue_right">
+                                            <div>操作</div>
+                                            <div style="margin-top: 4px"></div>
+                                            <div>Operation</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" style="height: 1px">
+                        </div>
+                        <div class="row">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-xs-2">
+                                        <div class="online_submit_content_card_text_blue_left">
+                                            <span>3A25</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <div class="online_submit_content_card_text_blue">
+                                            <span>ULC7534P5</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <div class="online_submit_content_card_text_blue">
+                                            <span>内容摘要<br/>Content Summary</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <div class="online_submit_content_card_text_blue">
+                                            <img class="online_submit_no_picture" src="img/photo.png"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <div class="online_submit_content_card_text_blue_right">
+                                            <a href="#" class="online_submit_delete">删除</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>-->
+
+                    <!--<button class="btn btn-primary" onclick="addNewRow()">添加一行(用来测试表格功能 后期删除)</button>-->
+                    <table style=" border: 2px solid #9DA6A3; padding-top: 1px;    padding-bottom: 1px; width: 100%; display: table;"
+                           id="time_table">
+                        <thead style="overflow-y: scroll;border-bottom:1px solid #eee; width: 100%">
+                        <tr style="width: 100%">
+                            <td class="online_submit_content_card_text_blue_left_18">
+                                <div>展位号</div>
+                                <div style="margin-top: 4px"></div>
+                                <div>Booth No.</div>
+                            </td>
+                            <td class="online_submit_content_card_text_blue_18">
+                                <div>产品名称</div>
+                                <div style="margin-top: 4px"></div>
+                                <div>Product Name</div>
+                            </td>
+                            <td class="online_submit_content_card_text_blue_28">
+                                <div>内容摘要</div>
+                                <div style="margin-top: 4px"></div>
+                                <div>Content Summary</div>
+                            </td>
+                            <td class="online_submit_content_card_text_blue_18">
+                                <div>图片</div>
+                                <div style="margin-top: 4px"></div>
+                                <div>Picture</div>
+                            </td>
+                            <td class="online_submit_content_card_text_blue_right_18">
+                                <div>操作</div>
+                                <div style="margin-top: 4px"></div>
+                                <div>Operation</div>
+                            </td>
+                        </tr>
+                        </thead>
+                        <tbody style="overflow-y: scroll; width: 100%">
+                        <!--<tr>
+                            <td class="online_submit_content_card_text_blue_left_18">
+                                <span>3A25</span>
+                            </td>
+
+                            <td class="online_submit_content_card_text_blue_18">
+                                <span>ULC7534P5</span>
+                            </td>
+
+                            <td class="online_submit_content_card_text_blue_28">
+                                <span>内容摘要<br/>Content Summary</span>
+                            </td>
+
+                            <td class="online_submit_content_card_text_blue_18">
+                                <img class="online_submit_no_picture" src="img/photo.png"/>
+                            </td>
+
+                            <td class="online_submit_content_card_text_blue_right_18">
+                                <a href="#" class="online_submit_delete">删除</a>
+                            </td>
+
+                        </tr>-->
+                        </tbody>
+                    </table>
+
+                    <div class="row" style="height: 60px">
+                        <div class="online_submit_text_row">
+                            <span class="online_submit_blue_text_red"> 温馨提示：</span>
+                            <span class="online_submit_blue_text_blue"> 敬请留意贵公司本次展会的主要展品信息，以适配大会对贵公司展品进行宣传</span>
+                        </div>
+                    </div>
+                </div>
+
+                <footer>
+                    <div style="margin: 10px; text-align: center">
+                        <span>创意时代版权所有 CASNHJH @ 2000-2016 </span> <a>粤IPC 备 093795475 号 | 隐私政策 | 免费条款</a><br/>
+                        <span>电话：（86）755 88743 8357 传真：（86）755 88743 8675</span>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <!-- /#page-wrapper -->
+</div>
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<script src="./js/online_product.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+.elect_invive_content {
+    background-color: #EEEEEE;
+    padding: 10px;
+}
+
+.elect_invive_content_bluetext {
+    color: #155F92;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.elect_invive_content_nomaltext {
+    color: #000000;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.elect_invive_content_two {
+    margin-top: 26px;
+}
+
+.elect_invive_content_two_title {
+    background-color: #015486;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 4px 0px 4px 10px;
+}
+
+.elect_invive_content_two_content {
+    padding: 20px;
+    background-color: #EEEEEE;
+}
+
+.elect_invive_content_two_content_first {
+    color: #000000;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.elect_invive_content_two_content_three {
+    color: #000000;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.elect_invive_content_two_content_button {
+    padding: 6px 2px;
+    border-radius: 5px;
+    background: #015486;
+    border: 1px solid #F0F0F0;
+    color: #ffffff;
+}
+
+.elect_invive_content_two_content_input {
+    padding: 6px 2px;
+    border-radius: 5px;
+    border: 1px solid #F0F0F0;
+    color: #000000;
+}
+
+.elect_invive_content_two_content_gray{
+    margin: 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: #EEEEEE;
+}
+
+
+.form_flex_wrap_item{
+    background-color: #DCDCDC;
+    border: 1px solid #E7E7E7;
+    padding: 10px 20px 10px 20px;
+    margin-left: 0px;
+    margin-right: -8px;
+    color: #000000;
+    font-size: 16px;
+}
+
+.elect_invive_content_submit{
+    margin:  40px 0px 40px 0px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    background: #015486;
+    border: 1px solid #F0F0F0;
+    color: #ffffff;
+    font-size: 20px;
+}

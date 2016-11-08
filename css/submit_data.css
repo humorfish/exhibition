@@ -1,0 +1,116 @@
+.submit_data_body{
+    background-color: #E8E8E6;
+    margin: 0px;
+    width: 100%;
+    font-family: 宋体;
+    font-weight: bold;
+}
+
+.action_tab {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+    height: auto;
+    justify-content: center;
+}
+
+.action_tab li.on {
+    background-color: #ffffff;
+    margin-bottom: -6px;
+    color: #B6B6B6;
+    text-align: center;
+    border-top: 2px solid #0589DC;
+}
+
+.action_tab li {
+    background-color: #ffffff;
+    color: #ABABAB;
+    height: 50px;
+    min-width: 200px;
+    line-height: 50px;
+    text-align: center;
+    padding-bottom: auto;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 10px;
+    display: inline-block;
+}
+
+
+.main_content_title {
+    background: #FFFFE7;
+    color: #9B6C1E;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.main_content_details {
+    border: 1px solid #2EA7D6;
+    display: table;
+    width: 100%;
+}
+
+.action_detail {
+    background-color: #ffffff;
+    padding: 10px;
+    list-style: none;
+    border: none;
+    height: auto;
+    display: table-row;
+}
+
+.action_detail_row {
+    background-color: #FFFFFF;
+    font-size: 14px;
+    padding: 10px 40px 10px 40px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    display: table-cell;
+    text-align: center;
+}
+
+
+.mainpage_nav_content {
+    width: auto;
+    height: 100%;
+    margin-top: 1px;
+    border-top: 1px solid #B7B7B5;
+    border-right: 1px solid #B7B7B5;
+}
+
+.mainpage_nav_content_title {
+    background-color: #015486;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.mainpage_nav_content_center {
+    margin: 1px 8px 1px 8px;
+}
+
+.mainpage_nav_content_innertitle {
+    background-color: #4490C1;
+    padding: 5px 10px 5px;
+    height: 20px;
+    color: #ffffff;
+    font-size: 8px;
+    line-height: 20px;
+}
+
+.need_to_fillin {
+    list-style: none;
+    border: 1px solid #4490C1;
+    padding: 2px 10px 2px 10px;
+    margin-bottom: 2px;
+    margin-top: 0px;
+    color: #9C9C9C;
+}
+
+.need_to_fillin li {
+    padding: 2px 10px 2px 10px;
+    margin-bottom: 2px;
+    color: #9C9C9C;
+}

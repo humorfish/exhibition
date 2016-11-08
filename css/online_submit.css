@@ -1,0 +1,286 @@
+body {
+    margin:0px;
+    padding: 0px;
+    width: 100%;
+    font-family: 宋体;
+    font-weight: bold;
+    display: table;
+}
+
+h1 {
+    border-left: 10px solid #999;
+    padding: 0.5em 20px;
+    background-color: #CCC;
+    font-size: 24px;
+}
+
+h2 {
+    border-left: 10px solid #CCC;
+    padding: 0.5em 20px;
+    background-color: #EEE;
+    font-size: 18px;
+}
+
+.online_head {
+    background-color: #E0EDFE;
+    width: 100%;
+    padding: 4px  4px 4px 4px;
+}
+
+#online_submit_page-wrapper{
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.online_submit_head_title {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.online_submit_table_cell {
+    display: table-cell;
+}
+
+.fixture {
+    border: 1px solid #489;
+}
+
+.fixture--higher {
+    min-height: 96px;
+}
+
+.kite_item_middle {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.kite_item_top {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.online_submit_content_body {
+    border: 5px solid #015488;
+    margin: 20px 100px 0px 100px;
+    padding: 5px;
+}
+
+.exhibitors_cell_center {
+    height: 100%;
+    vertical-align: middle;
+    display: table-cell;
+    align-items: center;
+}
+
+.online_submit_head_title_text {
+    color: #015488;
+    text-align: center;
+    align-items: center;
+    font-size: 26px;
+    margin-left: 10px;
+}
+
+.online_submit_content_top_head {
+    background-color: #D9E3ED;
+    min-height: 50px;
+}
+
+.online_submit_content_top_head_left {
+    background-color: #ACC1D7;
+    width: 10px;
+    height: 50px;
+    margin-right: -6px;
+}
+
+.online_submit_content_top_head_center {
+    background-color: #E1EEFF;
+    width: 10px;
+    height: 50px;
+}
+
+.online_submit_content_top_head_right {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.online_submit_content_top_head_right_text {
+    color: #005681;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.online_submit_blue_text {
+    text-align: end;
+    width: 100%;
+    color: #218CEE;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.online_submit_border_grey {
+    border: 2px solid #9DA6A3;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width: 100%;
+    display: table;
+}
+
+.online_submit_ul {
+    margin: 0;
+    list-style: none;
+    border: none;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.online_submit_content_card_text_blue {
+    height: 70px;
+    text-align: center;
+    margin-left:-14px;
+    margin-right: -14px;
+    border: 2px solid #254D71;
+    padding: 10px 0px 10px 0px;
+    color: #065482;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.online_submit_content_card_text_blue_left {
+    height: 70px;
+    text-align: center;
+    margin-right: -14px;
+    border: 2px solid #254D71;
+    padding: 10px 0px 10px 0px;
+    color: #065482;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.online_submit_content_card_text_blue_right {
+    height: 70px;
+    text-align: center;
+    margin-left:-14px;
+    border: 2px solid #254D71;
+    padding: 10px 0px 10px 0px;
+    color: #065482;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.online_submit_content_card_text_blue_18 {
+    height: 70px;
+    width: 18%;
+    text-align: center;
+    border: 2px solid #254D71;
+    padding: 10px 0px 10px 0px;
+    color: #065482;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.online_submit_content_card_text_blue_28 {
+    height: 70px;
+    width: 32%;;
+    text-align: center;
+    border: 2px solid #254D71;
+    padding: 10px 0px 10px 0px;
+    color: #065482;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.online_submit_content_card_text_blue_left_18 {
+    height: 70px;
+    width: 18%;
+    text-align: center;
+    border: 2px solid #254D71;
+    padding: 10px 0px 10px 0px;
+    color: #065482;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.online_submit_content_card_text_blue_right_18 {
+    height: 70px;
+    width: 18%;
+    text-align: center;
+    border: 2px solid #254D71;
+    padding: 10px 0px 10px 0px;
+    color: #065482;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.online_submit_no_picture {
+    background-color: #B9B9B9;
+    width: 50px;
+    height: 50px;
+}
+
+.online_submit_delete {
+    color: #047DF2;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.online_submit_text_row {
+    margin: 10px 30px 40px 16px;
+    float: left;
+    align-items: center;
+}
+
+.online_submit_blue_text_red {
+    color: #F65A5B;
+    margin: 5px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.online_submit_blue_text_blue {
+    color: #005586;
+    margin: 5px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.online_submit_footer_deep_blue {
+    color: #35597D;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.online_submit_footer_light_blue {
+    color: #329AF9;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.online_submit_head_tab {
+    height: 26px;
+    line-height: 26px;
+}
+
+.table_item_title_15 {
+    text-align: center;
+    width: 15%;
+    background-color: #ffffff;
+}
+
+.table_item_title_40 {
+    text-align: center;
+    width: 40%;
+    background-color: #ffffff;
+}
