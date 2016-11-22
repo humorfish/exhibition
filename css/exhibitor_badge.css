@@ -2,9 +2,10 @@
     margin:0px;
     padding: 0px;
     width: 100%;
-    font-family: 宋体;
+    font-family:"Microsoft YaHei",微软雅黑;
     font-weight: bold;
     display: table;
+    font-size: 12px;
 }
 
 .exhibitor_badge_title {

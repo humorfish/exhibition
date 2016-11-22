@@ -113,7 +113,7 @@ function addNewTable() {
         '</div>'+
         '<div class="col-xs-6">'+
         '<button class="btn btn-danger"'+
-    'style="width: 60px; height: 40px; margin: 10px 10px 10px 0px;" onclick="del('+ row_count+')">删除'+
+        'onclick="del('+ row_count+')">删除'+
         '</button>'+
         '</div>'+
         '</div>'+
@@ -134,7 +134,7 @@ function addNewTable() {
         '<td style="width: 1px; background-color: #ffffff"></td>'+
         '<td class="exhibitors_td_center">'+
         '<div>'+
-        '<input style="width: 98%; min-height: 80px; margin:4px 16px 3px 15px;">'+
+        '<textarea style="width: 98%; min-height: 60px; margin:4px 16px 3px 15px;"></textarea>'+
         '<div class="exhibition_red_text">* 限300字以内， 只填写产品介绍</div>'+
     '</div>'+
     '</td>'+

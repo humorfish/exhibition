@@ -2,9 +2,10 @@ body {
     margin:0px;
     padding: 0px;
     width: 100%;
-    font-family: 宋体;
+    font-family:"Microsoft YaHei",微软雅黑;
     font-weight: bold;
     display: table;
+    font-size: 12px;
 }
 
 h1 {
@@ -67,7 +68,7 @@ h2 {
 
 .online_submit_content_body {
     border: 5px solid #015488;
-    margin: 20px 100px 0px 100px;
+    margin: 20px 60px 0px 60px;
     padding: 5px;
 }
 
@@ -150,7 +151,7 @@ h2 {
     border: 2px solid #254D71;
     padding: 10px 0px 10px 0px;
     color: #065482;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
 }
 
@@ -161,7 +162,7 @@ h2 {
     border: 2px solid #254D71;
     padding: 10px 0px 10px 0px;
     color: #065482;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
 }
 
@@ -172,7 +173,7 @@ h2 {
     border: 2px solid #254D71;
     padding: 10px 0px 10px 0px;
     color: #065482;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
 }
 
@@ -183,7 +184,7 @@ h2 {
     border: 2px solid #254D71;
     padding: 10px 0px 10px 0px;
     color: #065482;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
 }
 
@@ -195,7 +196,7 @@ h2 {
     border: 2px solid #254D71;
     padding: 10px 0px 10px 0px;
     color: #065482;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
 }
 
@@ -206,7 +207,7 @@ h2 {
     border: 2px solid #254D71;
     padding: 10px 0px 10px 0px;
     color: #065482;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
 }
 
@@ -217,7 +218,7 @@ h2 {
     border: 2px solid #254D71;
     padding: 10px 0px 10px 0px;
     color: #065482;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
 }
 

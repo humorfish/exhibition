@@ -3,7 +3,8 @@
     padding: 0;
     width: 100%;
     background-color: #ffffff;
-    font-family: 宋体;
+    font-family:"Microsoft YaHei",微软雅黑;
+    font-size: 12px;
     font-weight: bold;
 }
 
@@ -92,7 +93,7 @@
     border: 1px solid #98B0CC;
     background-color: #E0EDFE;
     font-size: 10px;
-    font-family: 宋体;
+    font-family:"Microsoft YaHei",微软雅黑;
     font-weight: bold;
 }
 
@@ -168,6 +169,12 @@
     width: 225px;
     padding: 0px 0px 0px 15px;
     height: auto
+}
+
+.comment_right {
+    margin-left: 225px;
+    margin-right: 15px;
+    padding: 0px 15px;
 }
 
 .nav_content_title {

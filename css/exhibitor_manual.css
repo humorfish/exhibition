@@ -1,7 +1,9 @@
 .exhibitors_body {
     margin: 0px;
     width: 100%;
-    font-family: 宋体;
+    font-family:"Microsoft YaHei",微软雅黑;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 #exhibitor_manual_page-wrapper {
@@ -67,13 +69,13 @@
     color: #005681;
     font-size: 14px;
     font-weight: bold;
-    margin-right: 100px;
+    margin-right: 15px;
     margin-left: 100px;
 }
 
 .exhibitor_manual_content_body {
     border: 5px solid #015488;
-    margin: 20px 100px 40px 100px;
+    margin: 20px 20px 40px 20px;
     padding: 3px;
     color: #005681;
     font-weight: bold;
@@ -89,7 +91,7 @@
 .exhibitors_content_top_head_right_text {
     color: #005681;
     font-size: 14px;
-    font-family: 宋体;
+    font-family:"Microsoft YaHei",微软雅黑;
     font-weight: bold;
     margin-left: 10px;
 }
@@ -119,7 +121,7 @@
 
 .exhibitros_item_text_right {
     float: right;
-    padding: 20px 10px 20px 10px
+    padding: 14px 10px 14px 10px
 }
 
 .exhibition_item_left {

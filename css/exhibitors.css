@@ -1,8 +1,9 @@
 .exhibitors_body {
     margin: 0px;
     width: 100%;
-    font-family: 宋体;
+    font-family:"Microsoft YaHei",微软雅黑;
     font-weight: bold;
+    font-size: 12px;
 }
 
 #exhibitors_page-wrapper{
@@ -62,7 +63,7 @@
 
 .exhibitros_item_text_right {
     float: right;
-    padding: 16px 15px 16px 10px
+    padding: 14px 15px 14px 10px
 }
 
 .exhibition_item_left {
