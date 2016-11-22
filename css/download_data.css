@@ -126,10 +126,9 @@
 
 .td_25 {
     width: 25%;
+    padding-right: 4px;
     border-left: 1px solid #D2D2D2;
 }
-
-
 
 .td_10 {
     width: 10%;
@@ -356,14 +355,16 @@
     color: #000000;
     font-size: 14px;
     text-align: left;
-    margin-left: 16px;
+    margin-left: 6px;
 }
 
 .down_service_item_nomaltext_margin {
     width: 100%;
     color: #000000;
     font-size: 12px;
-    margin-left: 16px;
+    margin-left: 6px;
+    padding-right: 6px;
+    margin-right: 6px;
     margin-top: 4px;
     text-align: left;
 }
@@ -372,7 +373,7 @@
     font-weight: bold;
     color: #000000;
     font-size: 20px;
-    margin-left: 16px;
+    margin-left: 6px;
     text-align: left;
 }
 
