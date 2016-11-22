@@ -1,32 +1,23 @@
 .weixin_title{
     color: #000000;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 18px;
     font-family:"Microsoft YaHei",微软雅黑;
     font-weight: bold;
 }
 
 .weixin_content{
     background-color: #ffffff;
-    display: flex;
 }
 
 .weixin_content_code{
-    display: flex;
-    padding: 6px;
+    padding: 4px;
 }
 
 .weixin_content_text{
-    display: flex;
     text-align: left;
-    align-items: center;
-    font-size: 16px;
+    vertical-align: middle;
+    font-size: 14px;
     font-family:"Microsoft YaHei",微软雅黑;
     color: #000000;
-}
-
-.weixin_page-wrapper{
-    width: 100%;
-    padding: 10px;
-    margin-top: 70px;
 }

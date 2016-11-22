@@ -172,7 +172,6 @@
 }
 
 .down_welcom_font_little {
-    font-size: 14px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -180,12 +179,10 @@
 .down_content_top_p {
     font-weight: bold;
     color: #000000;
-    font-size: 16px;
     margin-top: 16px;
 }
 
 .down_content_top_text {
-    font-size: 14px;
     margin-top: 5px;
 }
 
@@ -336,7 +333,7 @@
     height: 100%;
     padding: 14px;
     color: #000000;
-    font-size: 20px;
+    font-size: 16px;
     margin-left: 10px;
     text-align: left;
 }
@@ -344,7 +341,6 @@
 .down_service_item_nomaltext_padding {
     width: 100%;
     color: #000000;
-    font-size: 14px;
     text-align: left;
     margin-left: 16px;
     padding: 12px;

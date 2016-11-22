@@ -5,14 +5,13 @@
 
 .elect_invive_content_bluetext {
     color: #155F92;
-    font-size: 20px;
+    font-size: 14px;
     margin: 5px;
 }
 
 .elect_invive_content_nomaltext {
     color: #000000;
     margin: 5px;
-    font-size: 14px;
 }
 
 .elect_invive_content_two {
@@ -22,7 +21,7 @@
 .elect_invive_content_two_title {
     background-color: #015486;
     color: #ffffff;
-    font-size: 22px;
+    font-size: 14px;
     padding: 4px 0px 4px 10px;
 }
 
@@ -40,13 +39,13 @@
 
 .elect_invive_content_two_content_first {
     color: #000000;
-    font-size: 20px;
+    font-size: 14px;
     padding: 10px;
 }
 
 .elect_invive_content_two_content_three {
     color: #000000;
-    font-size: 20px;
+    font-size: 14px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -101,7 +100,7 @@
     margin-left: 0px;
     margin-right: -8px;
     color: #000000;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .form_flex_wrap_item_8 {
@@ -113,7 +112,7 @@
     margin-left: 0px;
     margin-right: -8px;
     color: #000000;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .form_flex_wrap_item_body {
@@ -125,7 +124,7 @@
     margin-left: 0px;
     margin-right: 0px;
     color: #000000;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .input_radiu {
