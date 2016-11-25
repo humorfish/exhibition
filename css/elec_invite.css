@@ -1,6 +1,8 @@
 .elect_invive_content {
     background-color: #EEEEEE;
     padding: 10px;
+    font-family:"Microsoft YaHei",微软雅黑;
+    font-size: 12px;
 }
 
 .elect_invive_content_bluetext {
@@ -12,6 +14,9 @@
 .elect_invive_content_nomaltext {
     color: #000000;
     margin: 5px;
+    font-family:"Microsoft YaHei",微软雅黑;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .elect_invive_content_two {
@@ -77,6 +82,9 @@
     margin: 10px;
     padding: 10px 10px 10px 10px;
     background-color: #EEEEEE;
+    font-family:"Microsoft YaHei",微软雅黑;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .form_flex_wrap_item_4 {
@@ -117,14 +125,15 @@
 
 .form_flex_wrap_item_body {
     width: 100%;
-    height: 30px;
+    min-height: 30px;
     text-align: center;
     background-color: #ffffff;
     border: 1px solid #E7E7E7;
     margin-left: 0px;
     margin-right: 0px;
     color: #000000;
-    font-size: 14px;
+    font-size: 12px;
+    font-family:"Microsoft YaHei",微软雅黑;
 }
 
 .input_radiu {
